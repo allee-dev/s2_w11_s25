@@ -5,7 +5,7 @@ on:
       - develop
     types:
       - opened
-      - synchronized
+      - synchronize
   push:
     branches:
       - develop
