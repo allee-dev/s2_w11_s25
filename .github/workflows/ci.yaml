@@ -11,7 +11,7 @@ on:
       - develop
 jobs:
   linting-job:
-    runs-on: ubuntu
+    runs-on: ubuntu-latest
     steps:
       - name: Welcome Steps            
         run: echo "Welcome to CI Pipeline"
