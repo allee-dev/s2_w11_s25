@@ -1,6 +1,6 @@
 name: ci-wf
 on:
-  pull_requests:
+  pull_request:
     branches:
       - develop
     types:
